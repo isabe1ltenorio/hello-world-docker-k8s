@@ -19,10 +19,18 @@ Este projeto é uma aplicação simples que retorna "Hello World" em um endpoint
 
 ## Como rodar localmente
 
+### Opção 1: Build da imagem localmente
+
 1. Clone o repositório.
-2. Execute `docker build -t hello-world-app .`
-3. Execute `docker run -p 5000:5000 hello-world-app`
+2. Execute `docker build -t hello-world .`
+3. Execute `docker run -p 5000:5000 hello-world`
 4. Acesse `http://localhost:5000`
+
+### Opção 2: Baixar a imagem diretamente do Docker Hub
+
+1. Execute `docker pull isabe1ltenorio/hello-world`
+2. Execute `docker run -p 5000:5000 isabe1ltenorio/hello-world`
+3. Acesse `http://localhost:5000`
 
 ## CI/CD com GitHub Actions
 
