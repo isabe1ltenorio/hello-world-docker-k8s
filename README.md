@@ -1,6 +1,6 @@
 # Hello World Docker + Kubernetes + CI/CD
 
-Este projeto é uma aplicação simples que retorna "Hello World" em um endpoint, utilizando Flask, Docker, Minikube e GitHub Actions para CI/CD.
+Este projeto é uma aplicação simples que retorna "Hello World" em vários idiomas em um endpoint, utilizando Flask, Docker, Minikube e GitHub Actions para CI/CD.
 
 ## Passos
 
